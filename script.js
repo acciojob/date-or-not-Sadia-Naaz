@@ -5,7 +5,7 @@
 	}
 	 // return !isNaN(input.getTime());
 	  
- }
+ 
 	 else if (typeof input==='string'){ 
 		 const date = new Date(input);
 		 return !isNaN(date.getTime());
