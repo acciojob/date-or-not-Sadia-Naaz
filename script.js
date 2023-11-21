@@ -1,7 +1,10 @@
  function isDate(input) {
   if (Object.prototype.toString.call(input) === 
-    "[object Date]") 
+    "[object Date]") {
 	 return !isNaN(input.getTime());
+	}
+	 // return !isNaN(input.getTime());
+	  
  }
 	 else if (typeof input==='string'){ 
 		 const date = new Date(input);
